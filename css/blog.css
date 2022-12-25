@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url(./font/style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121718;
+  height: 100vh;
+}
+
+header {
+  background-color: #121718;
+  z-index: 3;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header ul {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header ul li:last-child a {
+  background-color: #313131;
+  border-radius: 50px;
+  padding: 14px 18px;
+}
+
+header ul li .active {
+  color: #5bebaf;
+}
+
+/* Our Article */
+.our-article {
+  height: auto;
+}
+
+.our-article .container {
+  height: auto;
+  background-color: #121718;
+  padding: 72px;
+}
+
+.our-article .container .hero-banner {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.our-article .container .hero-banner h1 {
+  width: 1160px;
+  height: 90px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.our-article .container .hero-banner p {
+  margin: 40px 0px;
+  width: 1160px;
+  height: 83px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.our-article .container .image {
+  width: 100%;
+}
+
+.our-article .container .image img {
+  width: 100%;
+}
+
+.our-article .container .span {
+  margin: 20px 0px;
+}
+
+.our-article .container span {
+  margin: 20px 0px;
+  width: 89px;
+  height: 23px;
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #c0c0c0;
+}
+
+.our-article .container .tailored-tech {
+  margin: 20px 0px;
+}
+
+.our-article .container .tailored-tech h1 {
+  width: 323px;
+  height: 62px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.our-article .container .tailored-tech p {
+  margin: 30px 0px;
+  height: 65px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.our-article .container .tailored-tech .button {
+  width: 186px;
+  height: 60px;
+  border: 2px solid #5bebaf;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-article .container .tailored-tech a {
+  text-decoration: none;
+  width: 106px;
+  height: 23px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5bebaf;
+}
+
+.our-article .container .row {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 60px;
+}
+
+.our-article .container .row .col {
+  flex-basis: 30%;
+}
+
+.our-article .container .row .col .image {
+  width: 367px;
+}
+
+.our-article .container .row .col .image img {
+  width: 100%;
+}
+
+.our-article .container .row .col .tailored-tech p {
+  width: 367px;
+  height: 96px;
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 20px 0px;
+}
+
+.our-article .container .row .col .tailored-tech .button {
+  margin: 100px 0px 0px 0px;
+  width: 186px;
+  height: 60px;
+  border: 2px solid #5bebaf;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-article .container .row .col .tailored-tech a {
+  text-decoration: none;
+  width: 106px;
+  height: 23px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5bebaf;
+}
+
+/* .our-article .container .row .col .button {
+  margin: 130px 0px;
+} */
+
+/* Lets Discuss Start */
+.lets-discuss {
+  height: auto;
+}
+
+.lets-discuss .container {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: auto;
+}
+
+.lets-discuss .container h1 {
+  margin: 60px 0px;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 90px;
+  color: #121718;
+}
+
+.lets-discuss .container .button {
+  margin-bottom: 50px;
+}
+
+.lets-discuss .container .button a {
+  text-align: center;
+  text-decoration: none;
+  width: 186px;
+  height: 60px;
+  background: #5bebaf;
+  border-radius: 30px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+}
+
+footer .container {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  width: 100%;
+}
+
+footer .container .logo span {
+  width: 211px;
+  height: 16px;
+  font-family: "Gordita";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+footer .container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .container ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+footer .container ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .container .social-media ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer .container .social-media ul li {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+footer .container .social-media ul li a {
+  position: relative;
+  top: 10px;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}

@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url(./font/style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121718;
+  height: 100vh;
+}
+
+header {
+  background-color: #121718;
+  z-index: 3;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header ul {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header ul li:last-child a {
+  background-color: #313131;
+  border-radius: 50px;
+  padding: 14px 18px;
+}
+
+header ul li .active {
+  color: #5bebaf;
+}
+
+/* Main Part */
+.main-part {
+  height: auto;
+}
+
+.main-part .container {
+  margin: 250px 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  background-color: #121718;
+  padding: 72px;
+}
+
+.main-part .container h1 {
+  width: 1160px;
+  height: 180px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+/* Image START */
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* Contact Form START */
+.contact-form {
+  height: auto;
+}
+
+.contact-form .container {
+  height: auto;
+  padding: 72px;
+  background-color: #fff;
+}
+.contact-form .container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form .container .row .col {
+  flex-basis: 50%;
+}
+
+.contact-form .container .row .col h1 {
+  width: 465px;
+  height: 450px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #121718;
+}
+
+.contact-form .container .row .col:last-child label {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  display: block;
+  width: 494px;
+  height: 18px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #121718;
+}
+
+.contact-form .container .row .col:last-child input {
+  padding-left: 10px;
+  width: 565px;
+  height: 60px;
+  left: 735px;
+  top: 1583px;
+  background: #ffffff;
+  border: 2px solid #c0c0c0;
+  border-radius: 6px;
+}
+
+.contact-form .container .row .col:last-child .row-2 {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form .container .row .col:last-child .row-2 .input {
+  width: 60%;
+}
+
+.contact-form .container .row .col:last-child .row-2 .input input {
+  width: 90%;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #c0c0c0;
+  border-radius: 6px;
+  display: flex;
+  padding-top: 20px;
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.contact-form .container .row .col:last-child .row-2 .choose-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 24px;
+  width: 29%;
+  height: 60px;
+  background: #5bebaf;
+  border: 1px solid #5bebaf;
+  border-radius: 6px;
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.contact-form .container .row .col:last-child .row-2 .choose-file h2 {
+  width: 102px;
+  height: 18px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #121718;
+}
+
+.contact-form .container .row .col:last-child .describe {
+  width: 565px;
+  height: 180px;
+  background: #ffffff;
+  border: 2px solid #c0c0c0;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.contact-form .container .button {
+  margin: 20px 0px;
+  width: 129px;
+  height: 60px;
+  background: #5bebaf;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .container .button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 49px;
+  height: 23px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+}
+
+footer .container {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  width: 100%;
+}
+
+footer .container .logo span {
+  width: 211px;
+  height: 16px;
+  font-family: "Gordita";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+footer .container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .container ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+footer .container ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .container .social-media ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer .container .social-media ul li {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+footer .container .social-media ul li a {
+  position: relative;
+  top: 10px;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}

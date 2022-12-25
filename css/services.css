@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url(./font/style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121718;
+  height: 100vh;
+}
+
+header {
+  background-color: #121718;
+  z-index: 3;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header ul {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header ul li:last-child a {
+  background-color: #313131;
+  border-radius: 50px;
+  padding: 14px 18px;
+}
+
+header ul li .active {
+  color: #5bebaf;
+}
+
+/* Hero Banner */
+.hero-banner {
+  height: 80vh;
+}
+
+.hero-banner .container {
+  padding: 0px 40px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner .container h1 {
+  width: 1160px;
+  height: 270px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.our-team {
+  height: auto;
+}
+
+.our-team .container {
+  padding: 0px 40px;
+  background-color: #fff;
+  height: auto;
+  margin: 60px 0px;
+}
+
+.our-team .container h1:first-child {
+  margin: 60px 0px;
+  width: 709px;
+  height: 200px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100px;
+  color: #121718;
+}
+
+.our-team .container .row {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin: 100px 0px;
+}
+
+.our-team .container .row .col {
+  flex-basis: 50%;
+}
+
+.our-team .container .row .col:last-child {
+  width: 565px;
+  height: 683.6px;
+  border-radius: 20px;
+}
+
+.our-team .container .row .col:last-child img {
+  width: 100%;
+}
+
+.our-team .container .row .col h1 {
+  width: 203px;
+  height: 62px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 62px;
+  color: #121718;
+}
+
+.our-team .container .row .col p {
+  width: 565px;
+  height: 108px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #121718;
+  margin: 60px 0px;
+}
+
+.our-team .container .row .col span {
+  margin: 60px 0px;
+  width: 137px;
+  height: 18px;
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #5bebaf;
+}
+
+.our-team .container .row .col .capabilities {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-team .container .row .col .capabilities .col {
+  width: 245px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: none;
+}
+
+.our-team .container .row .col .capabilities .col:last-child {
+  background-color: none;
+}
+
+.our-team .container .row:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  column-gap: 15px;
+}
+
+
+.our-team .container .row:nth-child(3) h1:first-child {
+  width: 300px;
+}
+
+.our-team .container .row:nth-child(3) .user-experience {
+  width: 565px;
+  height: 108px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #121718;
+}
+
+.our-team .container .row:nth-child(3) .col .capabilities p {
+  width: 245px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+/* Row number 5 */
+
+.our-team .container .row:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  column-gap: 15px;
+  padding: 0px 0px 150px 0px;
+}
+
+
+.our-team .container .row:nth-child(5) h1:first-child {
+  width: 300px;
+}
+
+.our-team .container .row:nth-child(5) .user-experience {
+  width: 565px;
+  height: 108px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #121718;
+}
+
+.our-team .container .row:nth-child(5) .col .capabilities p {
+  width: 345px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+/* Lets Discuss Start */
+.lets-discuss {
+  height: auto;
+}
+
+.lets-discuss .container {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: auto;
+}
+
+.lets-discuss .container h1 {
+  margin: 60px 0px;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 90px;
+  color: #121718;
+}
+
+.lets-discuss .container .button {
+  margin-bottom: 50px;
+}
+
+.lets-discuss .container .button a {
+  text-align: center;
+  text-decoration: none;
+  width: 186px;
+  height: 60px;
+  background: #5bebaf;
+  border-radius: 30px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+}
+
+footer .container {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  width: 100%;
+}
+
+footer .container .logo span {
+  width: 211px;
+  height: 16px;
+  font-family: "Gordita";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+footer .container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .container ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+footer .container ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .container .social-media ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer .container .social-media ul li {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+footer .container .social-media ul li a {
+  position: relative;
+  top: 10px;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
