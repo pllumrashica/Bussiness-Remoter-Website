@@ -1,0 +1,698 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url(./font/style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121718;
+  height: 100vh;
+}
+
+header {
+  background-color: #121718;
+  z-index: 3;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header ul {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header ul li:last-child a {
+  background-color: #313131;
+  border-radius: 50px;
+  padding: 14px 18px;
+}
+
+/* Hero Banner Start */
+
+.hero-banner {
+  background: url(../image/Group\ 2.png) no-repeat;
+  background-position: right;
+  background-position-y: 120px;
+  background-position-x: 970px;
+  background-size: 25%;
+  height: 100vh;
+}
+
+.hero-banner .vector {
+  position: absolute;
+  right: 120px;
+  top: 100px;
+}
+
+.hero-banner .container .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-banner .container .text h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 72px;
+  line-height: 90px;
+}
+
+.hero-banner .container .about-us-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.hero-banner .container .about-us-button a {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #5bebaf;
+  color: black;
+  border-radius: 50px;
+  padding: 18px 40px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+}
+
+/* Learn More */
+.learn-more {
+  height: auto;
+  background-color: #fff;
+}
+
+.learn-more .container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  height: 874px;
+}
+
+.learn-more .container .description {
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.learn-more .container .description p {
+  width: 367px;
+  height: 360px;
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.learn-more .container .title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.learn-more .container .title .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-more .container .title h1 {
+  margin: 0px;
+  width: 565px;
+  height: 496px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 62px;
+}
+
+.learn-more .container .title a {
+  margin: 0px;
+  text-decoration: none;
+  color: #000;
+}
+
+.learn-more .container .title i {
+  padding: 8px;
+}
+
+.learn-more .container .title a:hover {
+  text-decoration: underline;
+}
+
+/* What we do Start */
+
+.what-we-do {
+  background: #121718;
+}
+
+.what-we-do .container {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+}
+
+.what-we-do .container .about span {
+  color: #5bebaf;
+  font-family: "Gordita Thin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.what-we-do .container .about h1 {
+  color: #5bebaf;
+  width: 300px;
+  height: 62px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 62px;
+}
+
+.what-we-do .container .about h2 {
+  margin: 20px 0px;
+  color: #121718;
+  width: 300px;
+  height: 62px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 62px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.what-we-do .container .about p {
+  width: 565px;
+  color: #fff;
+  font-family: "Gordita Thin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.what-we-do .container .about .button {
+  margin-top: 45px;
+}
+
+.what-we-do .container .about .button a {
+  text-decoration: none;
+  width: 186px;
+  height: 60px;
+  background: #5bebaf;
+  border-radius: 30px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+.what-we-do .container .image .shape {
+  width: 69px;
+  height: 138.76px;
+  position: relative;
+  top: 60px;
+  right: 40px;
+}
+
+/* Dedicated Start */
+.dedicated {
+  background-color: #fff;
+  height: auto;
+}
+
+.dedicated .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.dedicated .container .title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dedicated .container .title h1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 867px;
+  height: 180px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #182824;
+}
+
+.dedicated .container .row {
+  margin-top: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10%;
+}
+
+.dedicated .container .row .col h1 {
+  width: 336px;
+  height: 48px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+  color: #121718;
+}
+
+.dedicated .container .row .col p {
+  margin-top: 20px;
+  width: 367px;
+  height: 144px;
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #121718;
+}
+
+.dedicated .container .button {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.dedicated .container .button a {
+  text-align: center;
+  text-decoration: none;
+  width: 186px;
+  height: 60px;
+  background: #5bebaf;
+  border-radius: 30px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/* Customer Says */
+.customers-says {
+  height: auto;
+}
+
+.customers-says .container {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.customers-says .container h1 {
+  margin: 60px 0px;
+  width: 728px;
+  height: 90px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.customers-says .container .image {
+  padding: 99px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.customers-says .container .image img {
+  border-radius: 50%;
+  border: 1px solid #5bebaf;
+  width: 50px;
+  margin: 20px 0px;
+}
+
+.customers-says .container .image span {
+  text-align: center;
+  width: 79px;
+  height: 16px;
+  font-family: "Gordita";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #5bebaf;
+}
+
+.customers-says .container .image h1 {
+  margin: 20px;
+  width: 1000px;
+  height: 156px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 52px;
+  color: #121718;
+}
+
+.customers-says .container .image .row {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.customers-says .container .image .row .col:first-child {
+  background-color: #5bebaf;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.customers-says .container .image .row .col {
+  background-color: #121718;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.customers-says .container .our-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.customers-says .container .our-article h1 {
+  margin: 20px 0px 10px;
+  text-align: center;
+  width: 728px;
+  height: 90px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.customers-says .container .our-article p {
+  text-align: center;
+  width: 264px;
+  height: 52px;
+  font-family: "Gordita";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 52px;
+  color: #797979;
+}
+
+.customers-says .container .our-news {
+  margin-top: 60px;
+}
+
+.customers-says .container .our-news .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 800px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.customers-says .container .our-news .row:nth-child(2) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 800px;
+  border-bottom: 1px solid #fff;
+}
+
+.customers-says .container .our-news .row:nth-child(2) h1 {
+  width: 348px;
+  height: 104px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.customers-says .container .our-news .row:last-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 800px;
+  border: none;
+}
+
+.customers-says .container .our-news .row:last-child h1 {
+  width: 348px;
+  height: 104px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.customers-says .container .our-news .row .col {
+  flex-basis: 50%;
+}
+
+.customers-says .container .our-news .row:first-child .col h1 {
+  width: 348px;
+  height: 104px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 52px;
+  color: #5bebaf;
+}
+
+.customers-says .container .our-news .row .col span {
+  width: 93px;
+  height: 16px;
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.customers-says .container .button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.customers-says .container .button a {
+  text-align: center;
+  text-decoration: none;
+  width: 186px;
+  height: 60px;
+  background: rgba(91, 235, 175, 0.14);
+  border-radius: 30px;
+  border-radius: 30px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  color: #5bebaf;
+}
+
+/* Lets Discuss Start */
+.lets-discuss {
+  height: auto;
+}
+
+.lets-discuss .container {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: auto;
+}
+
+.lets-discuss .container h1 {
+  margin: 60px 0px;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 90px;
+  color: #121718;
+}
+
+.lets-discuss .container .button {
+  margin-bottom: 50px;
+}
+
+.lets-discuss .container .button a {
+  text-align: center;
+  text-decoration: none;
+  width: 186px;
+  height: 60px;
+  background: #5bebaf;
+  border-radius: 30px;
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #121718;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+}
+
+footer .container {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  width: 100%;
+}
+
+footer .container span {
+  width: 211px;
+  height: 16px;
+  font-family: "Gordita";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer .container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .container ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+footer .container ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Gordita Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .container .social-media ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer .container .social-media ul li {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+footer .container .social-media ul li a {
+  position: relative;
+  top: 10px;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
