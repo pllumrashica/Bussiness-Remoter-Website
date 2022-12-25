@@ -61,7 +61,7 @@ header ul li:last-child a {
 /* Hero Banner Start */
 
 .hero-banner {
-  background: url(../image/Group\ 2.png) no-repeat;
+  background: url(./image/Group\ 2.png) no-repeat;
   background-position: right;
   background-position-y: 120px;
   background-position-x: 970px;
